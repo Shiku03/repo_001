@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="en" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Highrise Deliveries</title>
+        <link rel="stylesheet" href="project1.css">
+    </head>
+    <body>
+        <h1>Highrise Deliveries</h1>
+        <h2>To place your order fill the form below</h2>
+        <form>
+        <div class="box">
+            <h3>Personal details</h3>
+            <label for="name">Name:<input id="name" type="text"></label>
+            <label for="phone number">Phone number:<input id="phone-number" type="number"></label>
+            <label for="email">Email:<input id="email" name="email" type="email"></label>
+            <label for="location">Location<input id="location" name="location" type="text"></label>
+        </div>
+        <div class="box">
+            <h3>Your order</h3>
+            <label for="type"> Type of order <input id="type" name="type" type="text"></label>
+            <label for="quantity">Quantity<input id="quantity" name="quantity" type="number" min="1" max="100"></label>
+            <label for="delivery-date">Preferred date of delivery
+                <input id="1 day" name="delivery-date" type="checkbox" value="1 day">1 day from date of purchase</input>
+                <input id="7 days" name="delivery-date" type="checkbox" value="7 days">7 days from date of purchase</input>
+                <input id="14 days" name="delivery-date" type="checkbox" value="14 days">14 days from date of purchase</input>
+                <input id="21 or more days" name="delivery-date" type="checkbox" value="more than 21 days">More than 14 days from date of purchase</input>
+            </label>
+        </div>
+        <div>
+            <input id="submit" name="submit" type="submit">
+        </div>
+        </form>
+    </body>
+</html>
